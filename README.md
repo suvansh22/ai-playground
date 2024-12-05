@@ -1,4 +1,16 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+create a `.env.local` file and `GOOGLE_GENERATIVE_AI_API_KEY` key.
+You can create a `GOOGLE_GENERATIVE_AI_API_KEY` key by using following [`link`](https://aistudio.google.com/app/apikey)
+
+## This Webapp Include following:
+
+- AI chat using ai, ai/react and "@ai-sdk/google"
+- It is also cache conversation in the indexed db
+
+## Future Imporvement:
+
+- Project already contain useIntersectionObserver, which will be used to create vitualized list
+- Adding web worker for offline support
 
 ## Getting Started
 
